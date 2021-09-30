@@ -1,5 +1,11 @@
 <h1 align="center"> Hacktoberfest 2021 </h1>
 
+<p align="center">
+    <a href="https://hacktoberfest.digitalocean.com/">
+        <img src="https://user-images.githubusercontent.com/72685035/134015433-aec59d97-a8d7-407a-88fd-5e3edebc2b77.png">
+    </a>
+</p>
+
 ***
 <h3 align="center">
     <a href="https://hacktoberfest.digitalocean.com/">
@@ -37,6 +43,9 @@ To earn your Hacktoberfest tee or tree reward, you must register and make four v
     3. Add a file
     4. commit the code
     5. Make pull request
+<p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
+
+
 ***
 <h2 align="center">
     <p>
