@@ -1,5 +1,5 @@
 # Program make a simple calculator
-
+import math
 # This function adds two numbers
 def add(x, y):
     return x + y
