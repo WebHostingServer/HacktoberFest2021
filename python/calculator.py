@@ -16,16 +16,20 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
+def squareroot(x):
+    return math.sqrt(x)
+
 
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
+print("5.Square Root")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/3/4/5): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
@@ -50,5 +54,8 @@ while True:
         if next_calculation == "no":
           break
     
+    elif(choice == '5'):
+        x = int(input("Enter the Number"))
+        print("square root of number is:",squareroot(x))
     else:
-        print("Invalid Input")
+        print("invalid input")
