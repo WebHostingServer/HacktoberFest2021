@@ -2,20 +2,20 @@
 
 # Three types of css
 
-1. inline
+1. Inline
 1. Internal
 1. External
 
-## inline CSS
+## Inline CSS
 
 This is when we are applying style property to extreme Elements
 using style tags 
 
-## internal CSS
+## Internal CSS
 
-we use this when style element inside the hashtag of html document
+We use this when style element inside the hashtag of HTML document
 
-## external CSS
+## External CSS
 
 ---
 
@@ -25,17 +25,17 @@ we use this when style element inside the hashtag of html document
 
 # Styling elements
 
-| Property      | Function |
-| ----------    | ----------- |
-| text-align-Justify | All the text is spaced across the available space |
-| FontStyle     | Defines style of fonts
-| FontWight     | Defines the thickness of the font 
-| TextDecoration| To underline the texts overline, line-though 
-| TextTransform | Uppercase lowercase capitalize 
-| LetterSpacing | Increase space between letters
-| lineHeight    | Changes the space between lines
-| Border        | We can change border width style and colors
-| Paragraph | Text  
+|     Property       |              Function                             |
+|    ----------      |             -----------                           |
+| Text-align-Justify | All the text is spaced across the available space |
+| FontStyle          | Defines style of fonts                            |
+| FontWight          | Defines the thickness of the font                 |
+| TextDecoration     | To underline the texts overline, line-though      |
+| TextTransform      | Uppercase lowercase capitalize                    |
+| LetterSpacing      | Increase space between letters                    |
+| LineHeight         | Changes the space between lines                   |
+| Border             | We can change border width style and colors       |
+| Paragraph          | Text                                              |            
 
 ### [CSS short hand](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
 
@@ -45,26 +45,26 @@ we use this when style element inside the hashtag of html document
 ## Margin and padding
 
 Padding
-: when we need space inside the borders we use padding
+: When we need space inside the borders we use padding
 
 Margin
-: when we need space outside the border we use margins 
+: When we need space outside the border we use margins 
 
 ## Styles to List
 
-| ListStyleType | Properties |
-| -----------   | ----------- |
-| ListUpperAlpha| Alphabetical order and uppercase 
-| UpperRoman    | Roman numbers with upper case 
-| LowerRoman    | Roman numbers and lower case 
-| ReducingWidth | Transform list into multi lined
-| ListStyledPositions| Text and styling dint have indentions
+|   ListStyleType    |             Properties                |
+|    -----------     |            ------------               |
+| ListUpperAlpha     | Alphabetical order and uppercase      |
+| UpperRoman         | Roman numbers with upper case         |
+| LowerRoman         | Roman numbers and lower case          |
+| ReducingWidth      | Transform list into multi lined       |
+| ListStyledPositions| Text and styling dint have indentions |
 
 ## Different states of Link
 
-1. link : this is the link is not visited
-1. Visited : this is the link when its visited
-1. Hover: this tis the state when mouse is hovered
+1. Link : This is the link is not visited
+1. Visited : This is the link when its visited
+1. Hover: This tis the state when mouse is hovered
 1. Active: This is the state when link is clicked
 
 
@@ -97,11 +97,11 @@ Displays an element as a block element (like <p>). It starts on a new line, and 
 
 Weather we declare it or not it is the default position for HTML elements
 
-it positions element in normal order on the webpage
+It positions element in normal order on the webpage
 
 ## Relative
 
-it Helps to position HTML elements relative to normal position
+It Helps to position HTML elements relative to normal position
 
 It provides access to top right bottom and left property
 
