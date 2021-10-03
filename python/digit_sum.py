@@ -1,3 +1,4 @@
+print("Enter a number")
 try:
 	t = int(input())
 	
