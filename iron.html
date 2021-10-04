@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="iron.css">
+<body>
+<section>
+    <img src="bg.jpg" id="bg" >
+    <img src="moon.png" id="moon" >
+    <img src="cloud1.png" id="cloud1" >
+    <img src="cloud2.png" id="cloud2" >
+    <img src="jet.png" id="jet" >
+    <img src="ironman.png" id="ironman" >
+</section>
+    <div class="sec">
+     <div class="content">
+         <h2>My name is tony stark i am not afraid from you</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
+             od tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
+              ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru
+              re dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
+              lla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+               qui officia deserunt mollit anim id est laborum
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
+             od tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
+              ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru
+              re dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
+              lla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+               qui officia deserunt mollit anim id est laborum
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
+             od tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
+              ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru
+              re dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
+              lla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+               qui officia deserunt mollit anim id est laborum
+               od tempor incididunt ut labore
+               et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
+               ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru
+               re dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
+               lla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
+              od tempor incididunt ut labore
+               et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
+               ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru
+               re dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
+               lla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.
+                od tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
+                ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru
+                re dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
+                lla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                 qui officia deserunt mollit anim id est laborum
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
+               od tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
+                ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru
+                re dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
+                lla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                 qui officia deserunt mollit anim id est laborum.."</p>
+     </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js" integrity="sha512-3WGIRFCuTpZhqYujwLp5RtARPkOy3uRtc3RXB31bJ9/i6VH2C66Z0WBV6gHhdhbUIDKFx8yTkLfEjdQM5Wl+ZQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js" integrity="sha512-gCvf4DwKgITxy6cd2kwRxmQQMel4H+BlUIXbqb33W5NqZYv35tIM/8/+Ynz83Wz/R3pw2AIgBi83tmP3mQkyfA==" crossorigin="anonymous"></script>
+    <script>
+        gsap.to("#bg",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y:200,
+            scale:1.5
+        })
+        gsap.to("#moon",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x:-400,
+            scale:2
+        })
+        gsap.to("#cloud1",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x:-400,
+        })
+        gsap.to("#cloud2",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x:300,
+        })
+        gsap.to("#jet",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: 1000,
+            y:200,
+            scale: 4
+        })
+        gsap.to("#ironman",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: 0,
+            y:-1800,
+            scale: 1,
+            rotate: -50
+        })
+      
+    </script>
+</body>
+</html>
