@@ -13,4 +13,4 @@ try:
         print(count)
 
 except:
-    pass
+    print("something went wrong")
