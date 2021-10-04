@@ -49,7 +49,8 @@ def maxPathSum(ar1, ar2, m, n):
  
     # Add maximum of two sums of remaining elements
     result += max(sum1, sum2)
- 
+   
+   #returning the result
     return result
  
  
@@ -60,4 +61,5 @@ m = len(ar1)
 n = len(ar2)
  
 # Function call
+
 print "Maximum sum path is", maxPathSum(ar1, ar2, m, n)
