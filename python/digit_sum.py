@@ -12,4 +12,4 @@ try:
 			n//=10
 		print(sum)
 except:
-	pass
+	print("something went wrong")
