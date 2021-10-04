@@ -29,7 +29,7 @@ print("5-Square Root")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4/5): ")
+    choice = input("Enter a choice from(1/2/3/4/5): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
