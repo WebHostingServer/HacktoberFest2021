@@ -1,27 +1,30 @@
-#include <stdio.h>
-int fabonacci(int number)
-{
-    if (number == 0)
+    #include<stdio.h>
+     
+    int Fibonacci(int);
+     
+    int main()
     {
-        return 0;
+       int n, i = 0, c;
+     
+       scanf("%d",&n);
+     
+       printf("Fibonacci series\n");
+     
+       for ( c = 1 ; c <= n ; c++ )
+       {
+          printf("%d\n", Fibonacci(i));
+          i++; 
+       }
+     
+       return 0;
     }
-    else if (number == 1)
+     
+    int Fibonacci(int n)
     {
-        return 1;
-    }
-    else
-    {
-        return fabonacci(number - 1) + fabonacci(number - 2);
-    }
-}
-
-int main()
-{
-    int number, Fabonacci, i;
-    printf("Enter the Number: ");
-    scanf("%d", &number);
-    for (i = 0; i < number; i++)
-    {
-        printf("%d\t\n",fabonacci(i));
-    }
-}
+       if ( n == 0 )
+          return 0;
+       else if ( n == 1 )
+          return 1;
+       else
+          return ( Fibonacci(n-1) + Fibonacci(n-2) );
+    } 
