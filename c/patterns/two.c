@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+#include<bits/stdc++.h>
 void main(){
     int i,n,t;
     printf("Enter Target Value \n");
