@@ -26,10 +26,13 @@ print("2-Subtract")
 print("3-Multiply")
 print("4-Divide")
 print("5-Square Root")
+print("6-sine")
+print("7-cosine")
+print("8-tangent")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4/5): ")
+    choice = input("Enter choice(1/2/3/4/5/6/7/8): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
@@ -47,15 +50,29 @@ while True:
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
-        
+            
+
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
+            next_calculation = input("Let's do next calculation? (yes/no): ")
         if next_calculation == "no":
           break
     
     elif(choice == '5'):
         x = int(input("Enter the Number"))
         print("square root of number is:",squareroot(x))
+    
+    elif(choice == '6'):
+        x = int(input("Enter your Number: "))
+        print(math.sin(x))
+    
+    elif(choice == '7'):
+        x = int(input("Enter your Number: "))
+        print(math.cos(x))
+
+    elif(choice == '8'):
+        x = int(input("Enter your Number: "))
+        print(math.tan(x))
+
     else:
         print("invalid input")
