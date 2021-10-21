@@ -59,3 +59,30 @@ while True:
         print("square root of number is:",squareroot(x))
     else:
         print("invalid input")
+        
+        
+        
+print("select operation")
+print("1.add")
+print("2.subtract")
+print("3.multiply")
+print("4.division")
+choice=input("enter choice 1/2/3/4/: ")
+number1=int(input("enter number 1: "))
+number2=int(input("enter number 2: "))
+if choice == "1":
+    
+   print(number1 + number2)
+elif choice == "2":
+    
+   print(number1 - number2)
+elif choice =="3":
+    
+   print(number1 * number2)
+elif choice == "4":
+    
+   print(number1 / number2)
+else:
+    print("invalid")        
+        
+        
