@@ -10,6 +10,7 @@ try:
             if amount>1:
                 count = count+(amount//i)
                 amount = amount%i
+         #printing the count
         print(count)
 
 except:
