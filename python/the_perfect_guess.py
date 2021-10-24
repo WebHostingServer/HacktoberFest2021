@@ -1,5 +1,6 @@
 import os
 import random
+#generation a random number between 1 and 100
 randInt = random.randint(1, 100)
 userGuess = None
 Gussess = 0
