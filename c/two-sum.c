@@ -21,5 +21,6 @@ int *twoSum(int numbers[], int n, int target) {
     	        break;
     	    }
 	}
+	#returning the result
 	return result;
 }
