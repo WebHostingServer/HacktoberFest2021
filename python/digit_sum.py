@@ -4,7 +4,7 @@ try:
 	
 	for i  in range(t):
 		n = int(input())
-		a = n
+		a = 0
 		sum = 0
 		while n!=0:
 			a = n%10
