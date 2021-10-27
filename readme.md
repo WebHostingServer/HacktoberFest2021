@@ -27,7 +27,7 @@ To earn your Hacktoberfest tee or tree reward, you must register and make four v
 ***
 
 <h3 align="center"> Whether it’s your first or fiftieth pull request, there’s always more to learn! We’ve put together a few resources that can help you create quality pull requests, keep your repositories pristine, and build on your open source knowledge. </h3>
-
+<h3 align="center">THANKS TO ALL PARTICIPANTS</h3>
 
 
 ## Rules To Contribute To This Repo
@@ -49,6 +49,6 @@ To earn your Hacktoberfest tee or tree reward, you must register and make four v
 ***
 <h2 align="center">
     <p>
-        Thank You
+        THANKS TO ALL PARTICIPANTS IN THIS OPEN SOURCE PLATFORM
     </p>
 </h2>
