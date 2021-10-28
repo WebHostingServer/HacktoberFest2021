@@ -1,7 +1,7 @@
 # Python program to find maximum sum path
  
-# This function returns the sum of elements on maximum path from
-# beginning to end
+# This function returns the sum of elements on maximum path from 
+#beginning to end
  
  
 def maxPathSum(ar1, ar2, m, n):
@@ -12,7 +12,7 @@ def maxPathSum(ar1, ar2, m, n):
     # Initialize result and current sum through ar1[] and ar2[]
     result, sum1, sum2 = 0, 0, 0
  
-    # Below 3 loops are similar to merge in merge sort
+    # Below three loops are similar to merge in merge sort
     while (i < m and j < n):
  
         # Add elements of ar1[] to sum1
